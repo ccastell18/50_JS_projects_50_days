@@ -24,5 +24,8 @@ buttons.forEach((button) => {
 
     //appends to the button
     this.appendChild(circle);
+
+    //removes the circle from DOM
+    setTimeout(() => circle.remove(), 500);
   });
 });
